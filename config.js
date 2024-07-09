@@ -21,7 +21,7 @@ global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md"
 global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643";
 global.website=process.env.GURL || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643" ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://github.com/SuhailTechInfo/Suhail-Md/blob/main/lib/assets/suhail.jpg?raw=true" ; // SET LOGO FOR IMAGE 
-global.caption = process.env.CAPTION || global.caption || ""ᦔ𝐇𝐚𝐦𝐳𝐚_𝐉𝐮𝐭𝐭"𓆩🐼⃝❤️𓆪⁩" 
+global.caption = process.env.CAPTION || global.caption || "ᦔ𝐇𝐚𝐦𝐳𝐚_𝐉𝐮𝐭𝐭⁩" 
 
 
 global.devs = "+923327421134" // Developer Contact
@@ -72,12 +72,12 @@ module.exports = {
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "1.3.8",
-  caption : global.caption || "" , // ```『 "ᦔ𝐇𝐚𝐦𝐳𝐚_𝐉𝐮𝐭𝐭"𓆩🐼⃝❤️𓆪⁩ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
+  caption : global.caption || "" , // ```『 "ᦔ𝐇𝐚𝐦𝐳𝐚_𝐉𝐮𝐭𝐭 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
   author : process.env.PACK_AUTHER|| "",
   packname: process.env.PACK_NAME || "",
-  botname : process.env.BOT_NAME  || ""ᦔ𝐇𝐚𝐦𝐳𝐚_𝐉𝐮𝐭𝐭"𓆩🐼⃝❤️𓆪⁩",
-  ownername:process.env.OWNER_NAME|| ""ᦔ𝐇𝐚𝐦𝐳𝐚_𝐉𝐮𝐭𝐭"𓆩🐼⃝❤️𓆪⁩",
+  botname : process.env.BOT_NAME  || "ᦔ𝐇𝐚𝐦𝐳𝐚_𝐉𝐮𝐭𝐭",
+  ownername:process.env.OWNER_NAME|| "ᦔ𝐇𝐚𝐦𝐳𝐚_𝐉𝐮𝐭𝐭⁩",
 
 
   errorChat : process.env.ERROR_CHAT || "",
