@@ -26,7 +26,7 @@ global.caption = process.env.CAPTION || global.caption || "ROBOT"
 
 global.devs = "923264700120" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923264700120";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923327421134";
 
 
 
@@ -74,10 +74,10 @@ module.exports = {
   VERSION : process.env.VERSION || "1.3.8",
   caption : global.caption || "" , // ```『 "𝐇𝐚𝐦𝐳𝐚_𝐉𝐮𝐭𝐭 』```", //*『HAMZA JUTT』*\n youtube.com/@suhailtechinfo0"),
  
-  author : process.env.PACK_AUTHER|| "",
-  packname: process.env.PACK_NAME || "",
-  botname : process.env.BOT_NAME  || "BOT MD",
-  ownername:process.env.OWNER_NAME|| "SUPER KING⁩",
+  author : process.env.PACK_AUTHER|| "ᦔ𝐇𝐚𝐦𝐳𝐚_𝐉𝐮𝐭𝐭𓆩🐼⃝❤️𓆪",
+  packname: process.env.PACK_NAME || "ᦔ𝐇𝐚𝐦𝐳𝐚_𝐉𝐮𝐭𝐭𓆩🐼⃝❤️𓆪",
+  botname : process.env.BOT_NAME  || "ᦔ𝐇𝐚𝐦𝐳𝐚_𝐉𝐮𝐭𝐭𓆩🐼⃝❤️𓆪",
+  ownername:process.env.OWNER_NAME|| "ᦔ𝐇𝐚𝐦𝐳𝐚_𝐉𝐮𝐭𝐭𓆩🐼⃝❤️𓆪⁩",
 
 
   errorChat : process.env.ERROR_CHAT || "",
